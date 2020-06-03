@@ -1,0 +1,163 @@
+
+
+.container {
+ max-width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: white;
+ padding-left: 40px;
+ padding-right: 40px;
+ box-sizing: border-box;
+}
+
+header {
+ padding-top: 20px;
+}
+
+header h1 {
+ margin: 0px;
+}
+
+h2 {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding-top: 15px;
+ font-family: 'Cormorant Garamond', serif;
+ font-weight: lighter;
+ font-size: 4.768rem;
+}
+
+header p1 {
+ margin: 0px;
+}
+
+.fix {
+ clear: both;
+}
+
+.group:before,
+.group:after {
+ content: "";
+ display: table;
+}
+
+.group:after {
+ clear: both;
+}
+/*nav bar*/
+.navigation {
+ margin-top: 20px;
+ font-family: sans-serif;
+ font-size: .8rem;
+ letter-spacing: .1em;
+ text-transform: uppercase;
+ box-sizing: border-box;
+ font-weight: lighter;
+}
+
+.navigation li {
+ list-style: none;
+ float: left;
+}
+
+.navigation ul {
+ padding: 0px;
+ margin: 0px;
+}
+
+.navigation a {
+ text-decoration: none;
+ color: black;
+ padding: 5px 20px;
+ display: block;
+}
+
+.navigation:hover a {
+ opacity: .6;
+}
+
+.navigation a:hover {
+ opacity: 1;
+ font-weight: 1000;
+}
+
+.group {
+ zoom: 1;
+}
+
+.bio-pic {
+ display: block;
+ width: 100%;
+}
+
+.picture {
+ width: 47%;
+ left: 0px;
+ height: auto;
+ padding-left: 26%;
+}
+
+.pic-container {
+ width: 100%;
+ height: fit-content;
+ box-sizing: border-box;
+ }
+
+ .pic-container figcaption {
+  text-align: center;
+ }
+
+ .bio-text {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  display: block;
+  float: left;
+ }
+
+ .column2 img {
+ height: auto;
+ width: 48%;
+ padding: 5px;
+ box-sizing: border-box;
+}
+
+.column1 img {
+ height: auto;
+ width: 100%;
+ padding: 5px;
+ box-sizing: border-box;
+}
+
+.column1 {
+ width: 45%;
+ box-sizing: border-box;
+ float: left;
+}
+
+.column2 {
+ width: 45%;
+ box-sizing: border-box;
+ margin-left: 80px;
+ margin-top: 0px;
+ float: left;
+}
+
+.column2 img {
+ height: auto;
+ width: 100%;
+ padding: 5px;
+ box-sizing: border-box;
+}
+
+.row {
+ width: 100%;
+ display: inline-block;
+}
+
+.clear {
+ clear: both;
+ border-top: 1px;
+}
