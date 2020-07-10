@@ -1,4 +1,6 @@
-
+body {
+  margin: 0;
+}
 /* for the header and nav bar*/
 .container {
  max-width: 100%;
