@@ -39,7 +39,7 @@ body {
 }
 
 .picture {
- max-width: 900px;
+ max-width: 100%;
  height: auto;
  position: relative;
 }
@@ -55,14 +55,14 @@ body {
  color: white;
  background: black;
  width: 100%;
- max-width: 900px;
+ max-width: 100%;
  font-size: 20px;
- height: 30px;
+ height: auto;
  text-align: left center;
  transform: translateY(100%);
  transition: all 1s;
- display: flex;
  justify-content: center;
+ display: flex;
 }
 
 .image-banner {
@@ -70,6 +70,10 @@ body {
  overflow: hidden;
  display: flex;
  justify-content: center;
+ max-width: 100%;
+ display: flex;
+ align-items: flex-start;
+ height: auto;
 }
 
 .image-banner:hover .banner-description{
@@ -94,11 +98,10 @@ body {
   position: absolute;
   max-width: 100%;
   font-size: 16px;
-  height: 17%;
+  height: auto;
   text-align: left center;
   transform: translateY(45%);
   transition: all 1s;
-  display: flex;
   justify-content: center;
  }
  
@@ -108,5 +111,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: black;
+  align-items: flex-start;
+  max-width: 100%;
  }
 }

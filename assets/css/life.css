@@ -12,10 +12,6 @@ body {
  box-sizing: border-box;
 }
 
-header {
- padding-top: 20px;
-}
-
 header h1 {
  margin: 0px;
 }
