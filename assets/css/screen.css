@@ -236,4 +236,7 @@ left: 0px;
      height: auto;
    }
 
+   .initial-header {
+     padding: 0%;
+   }
  }

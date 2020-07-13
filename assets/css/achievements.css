@@ -15,23 +15,13 @@ body {
  text-transform: uppercase;
  font-weight: lighter;
  box-sizing: border-box;
-}
-
-.navigation li {
- list-style: none;
- float: left;
-}
-
-.navigation ul {
- padding: 0px;
- margin: 0px;
+ display: flex;
 }
 
 .navigation a {
  text-decoration: none;
  color: black;
  padding: 5px 20px;
- display: block;
 }
 
 .navigation:hover a {
