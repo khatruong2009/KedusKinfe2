@@ -114,18 +114,10 @@ header p1 {
   padding: 20px;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
   display: block;
   float: left;
   font-weight: 900;
  }
-
- .column2 img {
- height: auto;
- width: 48%;
- padding: 5px;
- box-sizing: border-box;
-}
 
 .column1 img {
  height: auto;
@@ -164,3 +156,80 @@ header p1 {
  clear: both;
  border-top: 1px;
 }
+
+@media screen and (max-width: 480px) {
+ .container {
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ .navigation {
+   margin-top: 1%;
+   font-size: 12px;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   box-sizing: border-box;
+  }
+  
+  .navigation a {
+   padding: 1% 2%;
+  }
+
+  .pic-container {
+   width: 100%;
+   box-sizing: border-box;
+   }
+
+  .picture {
+   width: 100%;
+   height: auto;
+   padding-left: 0%;
+  }
+
+  .bio-text {
+   width: 100%;
+   padding: 3%;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900;
+   border-bottom: black 1px solid;
+  }
+
+  .column1 img {
+   height: auto;
+   width: 100%;
+   padding: 5px;
+   box-sizing: border-box;
+  }
+  
+  .column1 {
+   width: 100%;
+   box-sizing: border-box;
+   float: left;
+  }
+  
+  .column2 {
+   width: 100%;
+   box-sizing: border-box;
+   margin-left: 0px;
+   margin-top: 0px;
+   float: left;
+  }
+  
+  .column2 img {
+   height: auto;
+   width: 100%;
+   padding: 5px;
+   box-sizing: border-box;
+  }
+  
+  .row {
+   width: 100%;
+   display: block;
+  }
+
+  .row figcaption {
+   padding-left: 2%;
+  }
+ }
